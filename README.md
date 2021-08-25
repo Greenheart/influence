@@ -2,6 +2,8 @@
 
 > A simple game to teach JS, HTML and CSS.
 
+Inspired by [Iso Conquest](https://github.com/Greenheart/iso-conquest)
+
 ## 1. Learn basics of HTML, CSS, JS @ freeCodeCamp.org
 
 ## 2. Setup Local Dev Environment
