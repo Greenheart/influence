@@ -78,8 +78,10 @@
                 --orange: #FDBA74;
             }
 
-            .game {
+            #game {
                 display: grid;
+                max-width: 1024px;
+                margin: 0 auto;
             }
 
             h1 {
@@ -89,17 +91,20 @@
             .scores {
                 display: flex;
                 justify-content: space-between;
-                padding: 8px;
+                padding: 16px 8px;
+                font-size: 20px;
             }
 
             .areas {
                 margin: 0 auto;
-                width: calc(100vw - 16px);
-                height: calc(100vw - 16px);
+                width: calc(100vw - 8px);
+                height: calc(100vw - 8px);
                 display: grid;
                 grid-template-columns: repeat(7, 1fr);
                 border: 1px solid var(--gray);
                 justify-content: center;
+                max-width: 1024px;
+                max-height: 1024px;
             }
 
             .area {
